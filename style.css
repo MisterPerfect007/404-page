@@ -46,6 +46,7 @@
 .container .text-zone button{
     color: #fff;
     background: #333333;
+    text-transform: uppercase;
     width: 216px;
     height: 68px;
     border: none;
