@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page-container{
+    margin: 40px 77px;
+    height: 87vh;
+}
+
+.page-container h3{
+    text-transform: uppercase;
+    font-family: 'Inconsolata';
+    font-style: bold;
+    font-size: 24px;
+    letter-spacing: -8%;
+}
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.container img{
+    width: 40%;
+    min-width: 300px;
+}
+.text-zone{
+    width: 50%;
+}
+.container .text-zone h1,.container .text-zone p, .container .text-zone button{
+    font-family: 'Space Mono';
+    vertical-align: top;
+    letter-spacing: -8%;
+}
+.container .text-zone h1{
+    font-size: 64px;
+    line-height: 95px;
+}
+.container .text-zone p{
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 20px;
+}
+.container .text-zone button{
+    color: #fff;
+    background: #333333;
+    width: 216px;
+    height: 68px;
+    border: none;
+    margin-top: 5%;
+    text-align: center;
+    cursor: pointer;
+}
+.container .text-zone button:hover{
+    background: #333333d7;
+}
+.footer{
+    padding-top: 40px;
+    font-family: Montserrat;
+    font-size: 14px;
+    text-align: center;
+}
+@media screen and  (max-width: 1098px){
+    .page-container{
+        margin: 2% 5%;
+        height: 100vh;
+    }
+    .container .text-zone h1{
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
+@media screen and  (max-width: 772px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .container img{
+        min-width: 300px;
+    }
+    .text-zone{
+        width: 100%;
+    }
+
+}
+@media screen and  (max-width: 620px){
+    .container .text-zone h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .container .text-zone p{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .container .text-zone button{
+        width: 150px;
+        height: 50px;
+        margin-top: 5%;
+    }
+    .page-container h3{
+        font-size: 18px;
+    }
+}
